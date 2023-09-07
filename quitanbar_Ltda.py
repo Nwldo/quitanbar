@@ -6,7 +6,7 @@ class Copo:
         self.conteudo = conteudo
 
     def mudanca_estado(self):
-        print(f'O que temos pra hoje é (A)-água\t (C)-cerveja\t (R)-refrigerante (S)-só olhondo mesmo')
+        print(f'O que temos pra hoje é (A)-água\t (C)-cerveja\t (R)-refrigerante (S)-só olhando mesmo')
         op = input().upper()
 
         if op == 'S':
